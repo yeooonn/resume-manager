@@ -25,3 +25,5 @@ Git 커밋 기록 기반 이력서 자동 생성 시스템 (Claude Code 기반)
 - `output/이력서_YYYY-MM-DD.html` — 브라우저에서 열어 미리보기 + PDF 다운로드
 - `resumes/tailored/` — 회사별 맞춤 이력서 (Markdown)
 - `output/tailored/` — 회사별 HTML (PDF 다운로드 버튼 포함)
+
+> `resumes/`와 `output/` 하위 모든 파일은 `.gitignore`에 의해 추적되지 않습니다 (개인정보 보호). `tailored/` 하위 디렉토리는 슬래시 커맨드 실행 시 자동 생성됩니다.
