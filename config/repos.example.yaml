@@ -1,0 +1,16 @@
+# config/repos.yaml 을 만들 때 이 파일을 복사해서 사용하세요
+# cp config/repos.example.yaml config/repos.yaml
+
+work_projects:
+  - path: /absolute/path/to/company-project
+    name: 서비스명
+    description: "프로젝트 한 줄 설명"
+    role: "프론트엔드 개발자"
+    period: "2024.03~2025.09"
+    tech_stack: [React, TypeScript, Zustand]
+
+personal_projects:
+  - path: /absolute/path/to/personal-project
+    name: 프로젝트명
+    description: "프로젝트 한 줄 설명"
+    tech_stack: [Next.js, Prisma, TailwindCSS]

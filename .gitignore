@@ -1,0 +1,12 @@
+# 생성된 이력서 (개인정보 포함) — .gitkeep 파일만 추적
+resumes/*
+!resumes/.gitkeep
+output/*
+!output/.gitkeep
+
+# 실제 사용 config (개인정보 포함)
+config/repos.yaml
+config/profile.yaml
+
+# OS
+.DS_Store
