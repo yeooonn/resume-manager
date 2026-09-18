@@ -106,7 +106,7 @@ mkdir -p output
 
 ## 주의사항
 
-- Phase 1, 3에서 사용자 승인 없이 다음 단계로 진행하지 않는다
+- Phase 1, 3, 4에서 사용자 승인 없이 다음 단계로 진행하지 않는다
 - Phase 3의 두 에이전트는 반드시 병렬(동시) 실행한다
 - HTML 생성 시 `templates/resume-template.html`의 CSS는 수정하지 않는다
 - `resumes/` 디렉토리가 없으면 `mkdir -p resumes` 실행 후 진행
