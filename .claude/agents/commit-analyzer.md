@@ -34,6 +34,7 @@ git -C <path> log --oneline --no-merges
 cat <path>/package.json
 ```
 `dependencies`의 주요 라이브러리와 `devDependencies`의 테스트/빌드 도구만 추출. 나머지는 생략.
+package.json이 없으면 `repos.yaml`의 `tech_stack` 필드를 기술 스택으로 사용한다.
 
 ### 3. 커밋 분류 및 그룹핑
 

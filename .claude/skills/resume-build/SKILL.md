@@ -27,6 +27,7 @@ Git 커밋 분석 → 이력서 작성 → 전문가 피드백 → 최종 확정
 ## Phase 3: 전문가 피드백 (병렬)
 
 `resume-critic`과 `headhunter` 에이전트를 **반드시 동시에** 실행한다.
+두 에이전트 실행 시 `resumes/이력서_초안.md`를 대상 파일로 지정한다.
 
 - `resume-critic` → `resumes/첨삭_피드백.md`
 - `headhunter` → `resumes/헤드헌터_피드백.md`
