@@ -13,7 +13,8 @@ description: 채용공고 URL을 받아 profile.md에서 공고 맞춤 이력서
 
 ### Phase 1 — 공고 수집
 - `job-parser` 호출: URL → WebFetch 시도 → 실패 시 사용자 텍스트 요청 → `resumes/jobs/<회사>_<yyyy-mm-dd>.md` 저장.
-- 같은 날짜 파일 존재 시:
+- 호출 시 사용자가 `--refresh` 플래그를 줬다면 그대로 전달하고 아래 분기 전체를 스킵한다.
+- 플래그가 없고 같은 날짜 파일이 이미 있으면:
   > "resumes/jobs/<파일>이 이미 있습니다. (1) 기존 사용 (2) 새로 가져오기(--refresh) — 선택해주세요."
 - 응답 대기 후 분기.
 
@@ -30,6 +31,10 @@ description: 채용공고 URL을 받아 profile.md에서 공고 맞춤 이력서
 - `unmatched_must`는 이력서에 반영하지 않고 별도 리포트 보관.
 
 ### Phase 5 — 저장 + 리포트
+- 저장 전 `resumes/tailored/<회사>_<yyyy-mm-dd>.md` 존재 여부 확인.
+- 존재하고 `--refresh` 없으면:
+  > "resumes/tailored/<파일>이 이미 있습니다. (1) 덮어쓰기 (2) 중단 (3) 새 파일명 입력 — 선택해주세요."
+  응답에 따라 분기. `--refresh`가 주어졌으면 안내 없이 덮어쓰기.
 - `resumes/tailored/<회사>_<yyyy-mm-dd>.md` 저장.
 - "다음 must 요건은 profile 근거가 없어 반영되지 않았습니다: [목록]" 출력.
 
