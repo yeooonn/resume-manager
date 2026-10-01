@@ -1,0 +1,168 @@
+# 회사 프로젝트
+work_projects:
+  - path: /Users/kim-yeonjeong/coontec/kisa-frontend
+    name: KISA
+    git_author: rladuswjd
+    description: "고위험 취약점 관리 솔루션 개발"
+    role: "frontend 개발자"
+    period: "2025.11 ~ 진행중"
+    tech_stack:
+      [
+        React,
+        TypeScript,
+        Vite,
+        MUI,
+        TanStack Query,
+        TanStack Table,
+        React Router,
+        React Hook Form,
+        Yup,
+        Zustand,
+        Axios,
+        FullCalendar,
+        ApexCharts,
+        DND Kit,
+        Auth0,
+        AWS Cognito,
+        Firebase,
+        Framer Motion,
+        Storybook,
+        Vitest,
+        MSW,
+      ]
+  - path: /Users/kim-yeonjeong/coontec/aegis_frontend
+    name: AEGIS
+    git_author: rladuswjd
+    description: "오픈소스 관리 솔루션 개발"
+    role: "frontend 개발자"
+    period: "2023.03~2025.03"
+    tech_stack:
+      [
+        React,
+        TypeScript,
+        MUI,
+        TanStack Query,
+        TanStack Table,
+        React Router,
+        React Hook Form,
+        Zustand,
+        Axios,
+        Recharts,
+        Styled Components,
+        Socket.io,
+        React Dropzone,
+      ]
+
+# 개인 프로젝트
+personal_projects:
+  - path: /Users/kim-yeonjeong/side_project/design-system
+    name: "@yeoooonn/ds"
+    git_author: yeooonn
+    description: "웹·React Native 공통 API를 제공하는 크로스플랫폼 디자인 시스템 모노레포"
+    tech_stack:
+      [
+        React,
+        React Native,
+        Expo,
+        TypeScript,
+        tsup,
+        pnpm Workspace,
+        Storybook,
+        Vitest,
+        Jest,
+      ]
+  - path: /Users/kim-yeonjeong/side_project/Rabbit-Tracker/FE
+    name: Rabbit Tracker
+    git_author: yeooonn
+    description: "습관 트래킹 모바일 앱 (Expo) · AI 습관 코치"
+    tech_stack:
+      [
+        React Native,
+        Expo,
+        Expo Router,
+        TypeScript,
+        NativeWind,
+        TanStack Query,
+        React Hook Form,
+        Zod,
+        Zustand,
+        expo-notifications,
+        NestJS,
+        TypeORM,
+        PostgreSQL,
+        Passport,
+        Vercel AI SDK,
+      ]
+  - path: /Users/kim-yeonjeong/side_project/Rabbit-Tracker/BE
+    name: Rabbit Tracker (BE)
+    git_author: yeooonn
+    description: "습관 트래킹 백엔드 · AI 습관 생성 API"
+    tech_stack:
+      [
+        NestJS,
+        TypeScript,
+        TypeORM,
+        PostgreSQL,
+        Passport,
+        JWT,
+        Vercel AI SDK,
+        Swagger,
+      ]
+  - path: /Users/kim-yeonjeong/side_project/LinkKeeper
+    name: LinkKeeper
+    git_author: yeooonn
+    description: "링크 관리 플랫폼"
+    tech_stack:
+      [
+        React,
+        Next.js,
+        TypeScript,
+        Tailwind CSS,
+        React-Query,
+        React-Hook-Form,
+        Zod,
+        Supabase,
+        Prisma,
+        Zustand,
+        Vercel,
+      ]
+  - path: /Users/kim-yeonjeong/side_project/study-mos/frontend
+    name: MOS
+    git_author: yeooonn
+    description: "원스톱 스터디 관리 플랫폼"
+    tech_stack:
+      [
+        React,
+        Next.js,
+        TypeScript,
+        Tailwind CSS,
+        React-Query,
+        React-Hook-Form,
+        Zustand,
+        Firebase,
+        Stomp,
+        WebSocket,
+        Recharts,
+        Storybook,
+        React-DnD,
+      ]
+  - path: /Users/kim-yeonjeong/side_project/sulsul/sulsul
+    name: Sulsul
+    git_author: yeooonn
+    description: "AI 기반 취업 면접 지원 플랫폼"
+    tech_stack:
+      [
+        Next.js,
+        TypeScript,
+        React,
+        React-Query,
+        Tailwind CSS,
+        Zustand,
+        Radix UI,
+        Framer Motion,
+        GSAP,
+        Lottie,
+        NextAuth,
+        Chart.js,
+        Vitest,
+      ]

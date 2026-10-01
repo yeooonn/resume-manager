@@ -1,12 +1,12 @@
-# 생성된 이력서 (개인정보 포함) — .gitkeep 파일만 추적
-resumes/*
-!resumes/.gitkeep
-output/*
-!output/.gitkeep
+# 사용자 개인 데이터 (이력서 원자재와 산출물)
+sources/profile.md
+sources/commits.json
+resumes/
+output/
 
-# 실제 사용 config (개인정보 포함)
-config/repos.yaml
-config/profile.yaml
+# 작업 공간 (SDD 레저 등)
+.superpowers/
 
-# OS
-.DS_Store
+# Claude Code 작업 임시 worktree
+.claude/worktrees/
+.claude/settings.local.json
